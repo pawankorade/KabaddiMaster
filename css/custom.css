@@ -51,6 +51,18 @@ h6 {
 	font-size: 14px;
 }
 
+.color1 {
+	color: #fb9221;
+}
+
+.lh-16 {
+	line-height: 16px !important;
+}
+
+.lh-18 {
+	line-height: 18px !important;
+}
+
 p {
 	padding: 0px;
 	margin: 0px;
@@ -820,7 +832,7 @@ header.header-small .navbar-dark .navbar-nav .nav-link {
 
 .table td {
 	vertical-align: middle;
-	border-bottom: 1px solid #c8c8c8;
+	/* border-bottom: 1px solid #c8c8c8; */
 	border-top: none;
 	text-align: center;
 	padding-top: 20px;
@@ -2049,6 +2061,37 @@ ul.tags-list li a:hover {
 	margin-bottom: 0;
 }
 
+/* added on 27-01-2022 */
+.table.player_stats tr th {
+	vertical-align: middle;
+}
+
+.table.player_stats thead tr td {
+	border-bottom: 1px solid #c8c8c8;
+	color: #fb9221;
+}
+
+.table.player_stats .img-thumbnail {
+	border: none;
+	background-color: transparent;
+	/* width: 45%; */
+	width: 130px;
+}
+
+.player_detail_sec h5{
+	font-size: 18px;
+}
+
+.player_detail_sec [class*='col-'] {
+	padding: 10px;
+}
+
+.news-box.players .date-box {
+	right: 8px;
+	left: auto;
+}
+
+
 @media (max-width: 1199px) {
 	.container {
 		max-width: 970px;
@@ -2324,7 +2367,11 @@ ul.tags-list li a:hover {
 
 	.about-top-left ul li h4 {
 		padding-bottom: 5px;
-		font-size: 18px;
+		font-size: 14px;
+	}
+
+	.player_detail_sec h5 {
+		font-size: 16px;
 	}
 
 	.about-top-left ul li h4 i {
@@ -2393,7 +2440,6 @@ ul.tags-list li a:hover {
 	header .logo img, header.header-small .logo img.main {
 		display: inline-block;
 		max-width: 80px;
-		/* margin: 0; */
 		margin: 15px 0;
 	}
 
@@ -2680,6 +2726,14 @@ ul.tags-list li a:hover {
 		width: 100%;
 	}
 
+	.news-box.players img {
+		width: auto;
+	}
+
+	.news-box.player_detail img{
+		width: auto;
+	}
+
 	.footer-top {
 		padding-top: 25px;
 		padding-bottom: 20px;
@@ -2866,8 +2920,7 @@ ul.tags-list li a:hover {
 		font-size: 14px;
 		padding-top: 10px;
 		padding-bottom: 10px;
-		/* width: 100% !important; */
-		display: inline-block;
+		padding: 5px;
 	}
 
 	.table tr {
@@ -2878,7 +2931,6 @@ ul.tags-list li a:hover {
 	.table tr:nth-child(even) {
 		margin: 20px 0;
 		width: 100%;
-		display: inline-block;
 	}
 
 	.table tr:last-child {
@@ -2897,5 +2949,13 @@ ul.tags-list li a:hover {
 
 	.feature-list .col-xs-12, .news-list .col-xs-12, .trainers-list .col-xs-12 {
 		width: 100% !important
+	}
+
+	.table.player_stats .img-thumbnail {
+		width: 45%;
+	}
+
+	.player_detail_sec [class*='col-'] {
+		padding: 5px;
 	}
 }

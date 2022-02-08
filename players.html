@@ -25,6 +25,8 @@
     <link href="css/animate.css" rel="stylesheet" type="text/css">
     <!-- Aos -->
     <link href="assets/aos/aos.css" rel="stylesheet" type="text/css">
+    <!-- bootstrap select -->
+    <link rel="stylesheet" href="css/bootstrap-select.css">
     <!-- Custom Style -->
     <link href="css/custom.css" rel="stylesheet" type="text/css">
 </head>
@@ -116,14 +118,94 @@
     <div class="trainers-outer bgNone trainers-page">
         <div class="container">
             <div class="trainers-list">
+                <form role="form">
+                    <div class="form-group mt-4">
+                        <div class="row justify-content-end">
+                            <div class="col-md-6 mb-2">
+                                <!-- <label>Select Match</label> -->
+                                <select class="selectpicker form-control show-tick rest-select" data-container="body"
+                                    data-live-search="true" title="Select Gender" data-hide-disabled="true">
+                                    <option data-tokens="Raigarh raigarh 1">Raigarh Match 1</option>
+                                    <option data-tokens="2">Match 2</option>
+                                    <option data-tokens="3">Match 3</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 mb-2">
+                                <!-- <label>Select Match</label> -->
+                                <select class="selectpicker form-control show-tick rest-select" data-container="body"
+                                    data-live-search="true" title="Select Player" data-hide-disabled="true">
+                                    <option data-tokens="Raigarh raigarh 1">Raigarh Match 1</option>
+                                    <option data-tokens="2">Match 2</option>
+                                    <option data-tokens="3">Match 3</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </form>
                 <div class="row">
-                    <div class="col-sm-3 col-xs-12 mb-5">
-                        <div class="news-box" style="border: #fb92219e solid; padding: 5px;">
-                            <figure style="background-color: #fb92219e;">
-                                <img src="images/trainer5.png" alt="">
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="news-box players" style="border: #fb92219e solid; padding: 5px;">
+                            <figure class="text-center" style="background-color: #fb92219e;">
+                                <img src="https://www.prokabaddi.com/static-assets/images/players/2024.png?v=4.1" alt="">
                                 <div class="date-box">
-                                    <p><strong>Mike Doe</strong></p>
-                                    <p>Defender</p>
+                                    <p><strong>Ravi John</strong></p>
+                                    <p class="mt-2">Defender</p>
+                                </div>
+                            </figure>
+                            <div>
+                                <div class="float-left">Matches</div>
+                                <div class="float-right"><strong>120</strong></div>
+                            </div><br>
+                            <div>
+                                <div class="float-left">Raid Points</div>
+                                <div class="float-right"><strong>120</strong></div>
+                            </div><br>
+                            <div>
+                                <div class="float-left">Tackle Points</div>
+                                <div class="float-right"><strong>120</strong></div>
+                            </div><br>
+                            <div>
+                                <div class="float-left">Total Points</div>
+                                <div class="float-right"><strong>120</strong></div>
+                            </div><br>
+                            <p><a href="player-detail.html">View Profile...</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="news-box players" style="border: #fb92219e solid; padding: 5px;">
+                            <figure class="text-center" style="background-color: #fb92219e;">
+                                <img src="https://www.prokabaddi.com/static-assets/images/players/357.png?v=4.1" alt="">
+                                <div class="date-box">
+                                    <p><strong>AJ Player</strong></p>
+                                    <p class="mt-2">Raider</p>
+                                </div>
+                            </figure>
+                            <div>
+                                <div class="float-left">Matches</div>
+                                <div class="float-right"><strong>120</strong></div>
+                            </div><br>
+                            <div>
+                                <div class="float-left">Raid Points</div>
+                                <div class="float-right"><strong>120</strong></div>
+                            </div><br>
+                            <div>
+                                <div class="float-left">Tackle Points</div>
+                                <div class="float-right"><strong>120</strong></div>
+                            </div><br>
+                            <div>
+                                <div class="float-left">Total Points</div>
+                                <div class="float-right"><strong>120</strong></div>
+                            </div><br>
+                            <p><a href="player-detail.html">View Profile...</a></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12">
+                        <div class="news-box players" style="border: #fb92219e solid; padding: 5px;">
+                            <figure class="text-center" style="background-color: #fb92219e;">
+                                <img src="https://www.prokabaddi.com/static-assets/images/players/357.png?v=4.1" alt="">
+                                <div class="date-box">
+                                    <p><strong>AJ Player</strong></p>
+                                    <p class="mt-2">Raider</p>
                                 </div>
                             </figure>
                             <div>
@@ -211,6 +293,8 @@
     <!-- CounterUp JS -->
     <script src="assets/counterup/counterup.min.js"></script>
     <script src="assets/counterup/waypoints.min.js"></script>
+    <!-- bootstrap select -->
+    <script src="js/bootstrap-select.js"></script>
     <!-- Custom JS -->
     <script src="js/custom.js"></script>
 </body>
