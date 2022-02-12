@@ -2092,6 +2092,15 @@ ul.tags-list li a:hover {
 }
 
 
+/*========================================== Rate Us Strat ===========================================*/
+.rate-us{ width:100%; padding:50px 0; text-align:center;}
+.rate-us .scorecard{ margin: 0 auto;box-shadow: 0 0 25px rgba(0,0,0, 0.3);padding: 65px 0;}
+.rate-us .scorecard li{ list-style:none; display:inline-block; padding:0 1px;}
+.rate-us .scorecard li img{ max-width:20px;}
+.rate-us .scorecard p{font-size:25px; line-height:30px; margin:10px 0 25px 0; color:#817f8e;}
+.rate-us .scorecard span{font-size: 30px;color: #625e5c;}
+/*========================================== Rate Us End ===========================================*/
+
 @media (max-width: 1199px) {
 	.container {
 		max-width: 970px;
