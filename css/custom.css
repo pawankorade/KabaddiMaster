@@ -2078,7 +2078,7 @@ ul.tags-list li a:hover {
 	width: 130px;
 }
 
-.player_detail_sec h5{
+.player_detail_sec h5 {
 	font-size: 18px;
 }
 
@@ -2092,14 +2092,73 @@ ul.tags-list li a:hover {
 }
 
 
-/*========================================== Rate Us Strat ===========================================*/
-.rate-us{ width:100%; padding:50px 0; text-align:center;}
-.rate-us .scorecard{ margin: 0 auto;box-shadow: 0 0 25px rgba(0,0,0, 0.3);padding: 65px 0;}
-.rate-us .scorecard li{ list-style:none; display:inline-block; padding:0 1px;}
-.rate-us .scorecard li img{ max-width:20px;}
-.rate-us .scorecard p{font-size:25px; line-height:30px; margin:10px 0 25px 0; color:#817f8e;}
-.rate-us .scorecard span{font-size: 30px;color: #625e5c;}
-/*========================================== Rate Us End ===========================================*/
+/*========================================== score wrapper Strat ===========================================*/
+/* .score-wrapper{ width:100%; padding:50px 0; text-align:center;} */
+.score-wrapper .scorecard {
+	margin: 0 auto;
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+	padding: 25px 0;
+	position: relative;
+	padding-top: 0;
+}
+
+.floatingScore-section {
+	background-color: #fb9221;
+	/* width: 50%; */
+	color: #fff;
+	justify-content: center;
+	/* position: absolute; */
+	top: -28px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	padding: 14px;
+}
+
+.score-wrapper .scorecard li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 1px;
+}
+
+.score-wrapper .scorecard li img {
+	max-width: 20px;
+}
+
+.score-wrapper .scorecard p {
+	font-size: 22px;
+	line-height: 30px;
+}
+
+.score-wrapper .scorecard span {
+	font-size: 18px;
+	/* color: #625e5c; */
+}
+
+.scorecard img {
+	width: 100px;
+}
+
+.score-wrapper .layout {
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.floatingScore-section > span {
+	margin-right: 15px;
+	border-right: 2px solid #fff;
+	padding-right: 15px;
+	/* font-size: 12px; */
+	text-align: center;
+}
+
+.floatingScore-section > span:last-of-type {
+	border: none;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+/*========================================== score wrapper End ===========================================*/
 
 @media (max-width: 1199px) {
 	.container {
@@ -2739,7 +2798,7 @@ ul.tags-list li a:hover {
 		width: auto;
 	}
 
-	.news-box.player_detail img{
+	.news-box.player_detail img {
 		width: auto;
 	}
 
