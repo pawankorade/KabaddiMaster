@@ -2100,6 +2100,7 @@ ul.tags-list li a:hover {
 	padding: 25px 0;
 	position: relative;
 	padding-top: 0;
+	padding-bottom: 10px;
 }
 
 .floatingScore-section {
@@ -2112,7 +2113,7 @@ ul.tags-list li a:hover {
 	left: 0;
 	right: 0;
 	margin: 0 auto;
-	padding: 14px;
+	padding: 10px;
 }
 
 .score-wrapper .scorecard li {
@@ -2126,7 +2127,7 @@ ul.tags-list li a:hover {
 }
 
 .score-wrapper .scorecard p {
-	font-size: 22px;
+	font-size: 16px;
 	line-height: 30px;
 }
 
@@ -2136,11 +2137,11 @@ ul.tags-list li a:hover {
 }
 
 .scorecard img {
-	width: 100px;
+	width: 75px;
 }
 
 .score-wrapper .layout {
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-bottom: 10px;
 }
 
@@ -2156,6 +2157,23 @@ ul.tags-list li a:hover {
 	border: none;
 	margin-right: 0;
 	padding-right: 0;
+}
+
+.score-detail-section a:hover {
+	text-decoration: underline !important;
+	color: #fb9221;
+}
+
+.match_vs {
+	background-color: #fb9221;
+    border-radius: 50%;
+    padding: 5px;
+    color: #fff;
+}
+
+.scoreTeam_vs p.score {
+	font-size: 21px;
+	font-weight: bold;
 }
 
 /*========================================== score wrapper End ===========================================*/
