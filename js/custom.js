@@ -141,6 +141,14 @@
         $(currentTab).show();
         return false;
     });
+    $('.team-detail').hide();
+    $('.team-detail:first').show();
+    $(".selected-team").on('click', function () {
+        $('.team-detail').hide();
+        var currentTab = $(this).attr('href');
+        $(currentTab).show();
+        return false;
+    });
     /***********************
      *  Flicker Box  *
      ***********************/
