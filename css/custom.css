@@ -2176,6 +2176,10 @@ ul.tags-list li a:hover {
 	font-weight: bold;
 }
 
+.selected-team .active {
+	background-color: red;
+}
+
 /*========================================== score wrapper End ===========================================*/
 
 @media (max-width: 1199px) {

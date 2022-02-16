@@ -144,7 +144,9 @@
     $('.team-detail').hide();
     $('.team-detail:first').show();
     $(".selected-team").on('click', function () {
+        $(".selected-team").removeClass('active');
         $('.team-detail').hide();
+        $(this).addClass('active');
         var currentTab = $(this).attr('href');
         $(currentTab).show();
         return false;
