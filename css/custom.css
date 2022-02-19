@@ -2176,9 +2176,57 @@ ul.tags-list li a:hover {
 	font-weight: bold;
 }
 
-.selected-team .active {
-	background-color: red;
+.selected-team.active {
+	background-color: #fb9221;
+	color: #fff;
 }
+
+#scorecard div.col-sm-4 {
+	max-width: 30% !important;
+}
+
+.completed_score .winner {
+	color: #fb9221;
+	/* background-color:#8bc34a; */
+	/* border-radius: 50%; */
+	/* padding: 5px; */
+}
+
+.completed_score .loser {
+	color:#838383;
+}
+
+.match_vs.completed {
+	background-color: #8bc34a;
+	padding: 10px;
+	font-size: 12px !important;
+	
+}
+
+.table.player_stats .img-thumbnail.match-detail-img-player {
+	width: 60px;
+	position: relative;
+}
+
+.table.player_stats .img-thumbnail.match-detail-img-player::after {
+	content: "20";
+	/* position: absolute; */
+}
+
+/* .raidtoraid_ul {
+	line-height: normal;
+}
+
+.players_out  li {
+	float: left;
+	margin-right: 3px;
+	line-height: 18px;
+} */
+
+.players_out p span:not(:last-child):after {
+	content: ", ";
+}
+
 
 /*========================================== score wrapper End ===========================================*/
 
