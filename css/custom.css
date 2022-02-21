@@ -55,6 +55,10 @@ h6 {
 	color: #fb9221;
 }
 
+.bgColor1 {
+	background-color: #fb9221;
+}
+
 .lh-16 {
 	line-height: 16px !important;
 }
@@ -2145,7 +2149,7 @@ ul.tags-list li a:hover {
 	margin-bottom: 10px;
 }
 
-.floatingScore-section > span {
+.floatingScore-section>span {
 	margin-right: 15px;
 	border-right: 2px solid #fff;
 	padding-right: 15px;
@@ -2153,7 +2157,7 @@ ul.tags-list li a:hover {
 	text-align: center;
 }
 
-.floatingScore-section > span:last-of-type {
+.floatingScore-section>span:last-of-type {
 	border: none;
 	margin-right: 0;
 	padding-right: 0;
@@ -2166,9 +2170,9 @@ ul.tags-list li a:hover {
 
 .match_vs {
 	background-color: #fb9221;
-    border-radius: 50%;
-    padding: 5px;
-    color: #fff;
+	border-radius: 50%;
+	padding: 5px;
+	color: #fff;
 }
 
 .scoreTeam_vs p.score {
@@ -2193,14 +2197,15 @@ ul.tags-list li a:hover {
 }
 
 .completed_score .loser {
-	color:#838383;
+	color: #838383;
 }
 
 .match_vs.completed {
-	background-color: #8bc34a;
+	/* background-color: #8bc34a; */
+	background-color: #fb9221;
 	padding: 10px;
 	font-size: 12px !important;
-	
+
 }
 
 .table.player_stats .img-thumbnail.match-detail-img-player {
@@ -2226,6 +2231,62 @@ ul.tags-list li a:hover {
 .players_out p span:not(:last-child):after {
 	content: ", ";
 }
+
+.player_circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	/* border: 2px solid #fb9221; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+}
+
+.player_circle_inner {
+	width: 34px;
+	height: 34px;
+	/* border: 2px solid #fb9221; */
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fb9221;
+}
+
+.player_circle_inner span {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.marquee {
+	position: relative;
+	height: 18px;
+}
+
+.track {
+	position: absolute;
+	white-space: nowrap;
+	will-change: transform;
+	width: 100%;
+	animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(-100%);
+	}
+}
+
+.score_card_table a:hover , .score_card_table:focus {
+	color: #979797;
+}
+
+.table tr:nth-child(even)
 
 
 /*========================================== score wrapper End ===========================================*/
