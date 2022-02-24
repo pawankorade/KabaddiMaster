@@ -143,10 +143,10 @@
     });
     $('.team-detail').hide();
     $('.team-detail:first').show();
+    $(".selected-team:first").addClass('active');
     $(".selected-team").on('click', function () {
         $(".selected-team").removeClass('active');
         $('.team-detail').hide();
-        $(this).addClass('active');
         var currentTab = $(this).attr('href');
         $(currentTab).show();
         return false;
@@ -288,7 +288,7 @@
 
     var mySelect = $('#first-disabled2');
 
-    createOptions(10);
+    // createOptions(10);
 
 
 })(jQuery);
