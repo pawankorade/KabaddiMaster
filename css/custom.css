@@ -274,7 +274,7 @@ header .logo img {
 	-webkit-transition: all 0.3s ease 0s;
 	-ms-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;
-	width: 140px;
+	width: 170px;
 }
 
 header .logo img.fix {
@@ -1303,7 +1303,7 @@ a.scroll-top:hover {
 /* 06. About Us */
 /* ================================================== */
 .about-us-banner {
-	background: url(../images/about-us-banner.png) no-repeat center top / cover;
+	background: url(../images/about-us-banner.jpg) no-repeat center top / cover;
 }
 
 .about-top-outer {
@@ -1417,7 +1417,7 @@ a.scroll-top:hover {
 /* 09. Trainers Page */
 /* ================================================== */
 .trainers-banner {
-	background: url(../images/about-us-banner.png) no-repeat center top / cover;
+	background: url(../images/about-us-banner.jpg) no-repeat center top / cover;
 }
 
 .bgNone {
@@ -1803,7 +1803,7 @@ ul.tags-list li a:hover {
 /* 11. Contact Us Page */
 /* ================================================== */
 .contact-us-banner {
-	background: url(../images/contact-us-banner.png) no-repeat center top / cover;
+	background: url(../images/contact-us-banner.jpg) no-repeat center top / cover;
 }
 
 .contact-outer {
@@ -2357,8 +2357,8 @@ table.table-striped tr td img {
 }
 
 table.table-striped tbody tr:nth-child(-n+4) {
-	background-color: #fb9221;
-	color: #fff;
+	background-color: #fb92218c;
+	color: #000;
 	font-weight: bold;
 }
 
