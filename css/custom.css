@@ -1,3 +1,41 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.dropdown-submenu {
+	position: relative;
+  }
+  
+  .dropdown-submenu>a:after {
+	content: "\f0da";
+	/* float: right; */
+	border: none;
+	font-family: 'FontAwesome';
+	position: absolute;
+	right: 1rem;
+	color: #f6751f;
+  }
+  
+  .dropdown-submenu>.dropdown-menu {
+	top: 0;
+	left: 100%;
+	margin-top: 0px;
+	margin-left: 0px;
+	background-color: #0c1a34;
+  }
+
+  .nav-submenu-setting {
+	  background-color: #0c1a34;
+  }
+  
+  .dropdown-item {
+	  color: #fff;
+  }
+
 /* ================================================== */
 /* 01. General Style */
 /* ================================================== */
